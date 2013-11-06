@@ -1,0 +1,37 @@
+!!!5
+html
+  head
+    title #{title}  - Default Title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .center
+      header
+        h1#headerTxt
+          a(href='/') Zachary Shore
+      #nav
+        a(href='about') About
+        a(href='publications') Publications
+        a(href='media') Media
+      .container
+        block content
+      footer#foot
+        .footerColumn
+          span.footerTitle About
+          a(href='about#biography') biography
+          a(href='about#other') Other
+        .footerColumn
+          span.footerTitle Publications 
+          a(href='publications#books') Books
+          a(href='publications#papers') Papers
+          a(href='publications#conferences') Conferences
+        .footerColumn
+          span.footerTitle Media
+          a(href='media#videos') Videos
+          a(href='media#interviews') Interviews
+
+      
+    
+    
+      
+  
+    
