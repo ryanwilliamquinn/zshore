@@ -3,15 +3,24 @@ html
   head
     title #{title}  - Default Title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript', src='/javascripts/jquery.min.js')
+    //-script(type='text/javascript', src='/javascripts/script.js')
   body
     .center
       header
         h1#headerTxt
           a(href='/') Zachary Shore
       #nav
-        a(href='about') About
+        a(href='about') Biography
         a(href='publications') Publications
         a(href='media') Media
+        a(href='contact') Contact
+        a(href='/' id='booksHeader') Books
+        //-#subNav(class='hidden' id='booksSubHeader')
+          //-a(href='blunder') A Sense of the Enemy
+          //-a(href='blunder') Blunder
+          //-a(href='blunder') Breeding Bin Ladens
+          //-a(href='blunder') What Hitler Knew
       .container
         block content
       footer#foot
@@ -20,14 +29,17 @@ html
           a(href='about#biography') biography
           a(href='about#other') Other
         .footerColumn
-          span.footerTitle Publications 
-          a(href='publications#books') Books
+          span.footerTitle Publications
+          a(href='a-sense-of-the-enemy') A Sense of the Enemy
+          a(href='blunder') Blunder
+          a(href='breeding-bin-ladens') Breeding Bin Ladens
+          a(href='what-hitler-knew') What Hitler Knew
           a(href='publications#papers') Papers
-          a(href='publications#conferences') Conferences
         .footerColumn
           span.footerTitle Media
-          a(href='media#videos') Videos
-          a(href='media#interviews') Interviews
+          a(href='media#video') Video
+          a(href='media#audio') Audio
+          a(href='media#print') Print
 
       
     
