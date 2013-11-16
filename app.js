@@ -54,6 +54,11 @@ app.get('/what-hitler-knew', function(req, res) {
     {title: titleText + 'What Hitler Knew'});
 })
 
+app.get('/contact', function(req, res) {
+  res.render('contact',
+    {title: titleText + 'contact'})
+})
+
 app.use(function(req, res, next) {
   res.status(404);
 

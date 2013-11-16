@@ -19,6 +19,8 @@
   .footerColumn a, .footerColumn span {display:block; font-family:sans-serif; display:block; margin-top:3px;}
   .footerTitle {color:#999;}
 
+  #contact {margin-bottom:10px;}
+
   .hidden {display:none;}
   .shown {display:block;}
 
