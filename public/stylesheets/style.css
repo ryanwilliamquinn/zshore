@@ -19,8 +19,11 @@
   .footerColumn a, .footerColumn span {display:block; font-family:sans-serif; display:block; margin-top:3px;}
   .footerTitle {color:#999;}
 
-  #contact {margin-bottom:10px;}
+  .mb10 {margin-bottom:10px;}
+
+  .textContent p {margin-bottom:10px;}
 
   .hidden {display:none;}
   .shown {display:block;}
 
+  .horizontalLinks span {display:inline-block; margin-right:20px;}
