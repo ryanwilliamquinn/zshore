@@ -1,14 +1,31 @@
 extend layout
 block content
-
+  style
+    .midLink {display:inline-block; margin-top:35px;}
+    .midLink2 {display:inline-block; margin-top:30px;}
+    .midLink3 {display:inline-block; margin-top:37px;}
+    .bookImg {float:left; margin-right:10px;}
   #publicationsContent
       h4#books Books
-      p <a href='http://www.amazon.com/Sense-Enemy-Stakes-History-Reading/dp/0199987378/'>A Sense of the Enemy: The High-Stakes History of Reading Your Rival’s Mind</a>. Oxford University Press, 2014.
-      p.
-        <a href='/blunder'>Blunder: Why Smart People Make Bad Decisions</a>. Bloomsbury, 2008. Translated into six languages, including Chinese, Korean, Turkish, Romanian, Croatian, and
-        Bahasa Indonesia. Available as audio book from Audible.com.
-      p <a href='/breeding-bin-ladens'>Breeding Bin Ladens: America, Islam, and the Future of Europe</a>. Baltimore: The Johns Hopkins University Press, 2006. Choice magazine Outstanding Title of 2007.
-      p <a href='/what-hitler-knew'>What Hitler Knew: The Battle for Information in Nazi Foreign Policy</a>. New York: Oxford University Press, 2003.
+      p(style='height:114px;') 
+        img(src='images/sense_hires_100w.jpg' style='width:75px;' class='bookImg')
+        a(href='http://www.amazon.com/Sense-Enemy-Stakes-History-Reading/dp/0199987378/' class='midLink') A Sense of the Enemy: The High-Stakes History of Reading Your Rival’s Mind
+        . Oxford University Press, 2014.
+      p(style='height:112px; clear:both;')
+        a(href='http://www.amazon.com/Blunder-Smart-People-Make-Decisions/dp/1596912421/ref=sr_1_3/105-3580678-3456460?ie=UTF8&s=books&qid=1214860069&sr=1-3')
+          img(src='images/blunder_100w.jpg' style='width:75px;' class='bookImg')
+        a(href='/blunder' class='midLink2') Blunder: Why Smart People Make Bad Decisions
+        . Bloomsbury, 2008. Translated into six languages, including Chinese, Korean, Turkish, Romanian, Croatian, and Bahasa Indonesia. Available as audio book from Audible.com.
+      p(style='height:124px; clear:both;') 
+        a(href='http://www.amazon.com/exec/obidos/tg/detail/-/0801885051/ref=pd_sl_aw_alx-jeb-9-1_book_25413276_1?tag2=amd-google-20')
+          img(src='images/breedingbinladens_hires_100w.jpg' style='width:75px;' class='bookImg')
+        a(href='/breeding-bin-ladens' class='midLink3') Breeding Bin Ladens: America, Islam, and the Future of Europe
+        . Baltimore: The Johns Hopkins University Press, 2006. Choice magazine Outstanding Title of 2007.
+      p(style='height: 113px; clear:both;') 
+        a(href='http://www.amazon.com/o/redirect?tag=tellafriend-20&path=tg%2Fdetail%2F-%2F0195154592%2Fref%3Dcm%5Ftaf%5Fasin%5Ftitle%5Fcs')
+          img(src='images/whathitlerknew_hires_100w.jpg' style='width:75px;' class='bookImg')
+        a(href='/what-hitler-knew' class='midLink') What Hitler Knew: The Battle for Information in Nazi Foreign Policy
+        . New York: Oxford University Press, 2003.
       h4#articles Articles, Book Reviews, & Policy Papers
       p “Reading the Enemy: Le Duan and the Origins of the Vietnam War.” Journal of Cold War Studies, forthcoming 2014.
       p “A Sense of the Enemy: Refocusing Prediction in Military and Foreign Affairs,” Joint Force Quarterly, April 2012.
@@ -26,20 +43,32 @@ block content
         "Muslim Europe and the Transatlantic Divide," Working Paper, American Institute for Contemporary German Studies (AICGS), Washington, DC (2004). Explaining
         how Europe and the United States could simultaneously narrow the transatlantic divide and combat Islamic extremism by devising long-term integration strategies for Europe's Muslim millions.
       p.
-         "Uncommon Threats: Germany's Muslims, Transatlantic Relations, and the War on Terror," Policy Report, No. 5, American Institute for Contemporary German Studies, Washington, DC (2003).
+        "Uncommon Threats: Germany's Muslims, Transatlantic Relations, and the War on Terror," Policy Report, No. 5, American Institute for Contemporary German Studies, Washington, DC (2003).
          Forward by Dr. Cathleen Fisher.
-      p "Three Faces of Realism," Orbis, Vol. 47, No. 2 (Spring 2003), pp. 349-359. Reviewing John Mearsheimer, The Tragedy of Great Power Politics; Jonathan Haslam,
-      p No Virtue Like Necessity: Realist Thought in International Relations Since Machiavelli; and Stanley Michalak, Primer in Power Politics.
-      p <a href='http://www.oxan.com/display.aspx?ItemID=DB71035'>"US/Balkans: Relations Under Bush"</a>, Oxford Analytica Daily Brief, February 12, 2001.
-      p <a href='http://www.oxan.com/display.aspx?ItemID=DB68179'>"United States: Serbian Options"</a>, Oxford Analytica Daily Brief, October 31, 2000.
       p.
-        <a href='http://www.questia.com/PM.qst?a=o&d=5001762493'>"The Challenge to Certainty"</a>, The National Interest, No. 60 (Summer 2000). Arguing that the twentieth century will ultimately be remembered for the range
-        and depth of the philosophical attacks upon previously unshakable beliefs in the sciences and social relations.
-      p "Hitler's Opening Gambit: Intelligence, Encirclement, and the Decision to Align with Poland," Intelligence & National Security, Vol. 14, No. 3 (Autumn 1999), pp. 111-130.
-      p <a href='http://jch.sagepub.com/content/vol34/issue1/'>"Hitler, Intelligence, and the Decision to Remilitarize the Rhine"</a>, Lead article, Journal of Contemporary History, Vol. 34, No. 1 (January 1999), pp. 5-18. Editorials
-      p "Europe's Quiet Integration," International Herald Tribune, Wednesday, November 29, 2006.
-      p "Europe's Terrorists: Where Next?" International Herald Tribune, July, 15 2005.
-      p.
-        <a href='http://nl.newsbank.com/nl-search/we/Archives?p_product=BS&p_theme=bs&p_action=search&p_maxdocs=200&p_field_label-0=Section&s_dispstring=allfields%28zachary+shore%29%20AND%20section%28*%29%20AND%20date%28%29&p_field_advanced-0=&p_text_advanced-0=%28%22zachary+shore%22%29&p_perpage=10&p_sort=YMD_date:D&xcal_useweights=no'>
-        "European Disunion"</a>, The Baltimore Sun, Wednesday, December 8, 2004.
-      p "Fanatically Secular, France Places Scarves under Siege," AICGS Advisor, American Institute for Contemporary German Studies Newsletter, January 9, 2004.
+        "Three Faces of Realism," Orbis, Vol. 47, No. 2 (Spring 2003), pp. 349-359. Reviewing John Mearsheimer, The Tragedy of Great Power Politics; Jonathan Haslam,
+        No Virtue Like Necessity: Realist Thought in International Relations Since Machiavelli; and Stanley Michalak, Primer in Power Politics.
+      p
+        a(href='http://www.oxan.com/display.aspx?ItemID=DB71035') "US/Balkans: Relations Under Bush"
+        , Oxford Analytica Daily Brief, February 12, 2001.
+      p
+        a(href='http://www.oxan.com/display.aspx?ItemID=DB68179') "United States: Serbian Options"
+        , Oxford Analytica Daily Brief, October 31, 2000.
+
+      p
+        a(href='http://www.questia.com/PM.qst?a=o&d=5001762493') "The Challenge to Certainty"
+        , The National Interest, No. 60 (Summer 2000). Arguing that the twentieth century will ultimately be remembered for the range and depth of the philosophical attacks upon previously unshakable beliefs in the sciences and social relations.
+      p 
+        "Hitler's Opening Gambit: Intelligence, Encirclement, and the Decision to Align with Poland," Intelligence & National Security, Vol. 14, No. 3 (Autumn 1999), pp. 111-130.
+      p 
+        a(href='http://jch.sagepub.com/content/vol34/issue1/')"Hitler, Intelligence, and the Decision to Remilitarize the Rhine"
+        , Lead article, Journal of Contemporary History, Vol. 34, No. 1 (January 1999), pp. 5-18. Editorials
+      p 
+        "Europe's Quiet Integration," International Herald Tribune, Wednesday, November 29, 2006.
+      p 
+        "Europe's Terrorists: Where Next?" International Herald Tribune, July, 15 2005.
+      p
+        a(href='http://nl.newsbank.com/nl-search/we/Archives?p_product=BS&p_theme=bs&p_action=search&p_maxdocs=200&p_field_label-0=Section&s_dispstring=allfields%28zachary+shore%29%20AND%20section%28*%29%20AND%20date%28%29&p_field_advanced-0=&p_text_advanced-0=%28%22zachary+shore%22%29&p_perpage=10&p_sort=YMD_date:D&xcal_useweights=no') "European Disunion"
+        , The Baltimore Sun, Wednesday, December 8, 2004.
+      p 
+        "Fanatically Secular, France Places Scarves under Siege," AICGS Advisor, American Institute for Contemporary German Studies Newsletter, January 9, 2004.
