@@ -10,7 +10,8 @@
   #headerTxt a, #nav a, .footerColumn a {text-decoration:none; color: #000;}
   .container {margin:50px 0px;}
   #bookContainer img {margin:0px 69px;}
-  #publicationsContent p {margin:10px 0px 10px 0px}
+  #publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+  #publicationsContent h4 {margin:30px 0px;}
   #mediaContent p {margin:20px 0px 40px 0px}
   .bioText p, .fellowships p {margin-bottom:20px;}
   hr {border-color:#666;}
