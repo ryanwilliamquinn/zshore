@@ -1,5 +1,5 @@
 /* layout setup */
-body {font-family:Georgia,Times,"Times New Roman",serif;}
+body {font-family:Georgia,Times,"Times New Roman",serif; font-size:.7em;}
 .container {margin:50px 0px;}
 p {margin:0; padding:0;}
 hr {border-color:#666;}
@@ -14,13 +14,13 @@ hr {border-color:#666;}
 .horizontalLinks span {display:inline-block; margin-right:20px;}
 
 /* header/navigation */
-#nav {display:none; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px; height:40px;}
+#nav {display:block; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px; height:40px;}
 #nav a {display:inline-block; padding:0px 10px; border-right: solid 1px #c9c9c9; line-height:40px;}
 #nav #booksSubHeader a {margin-right:30px;}
 #headerTxt {text-align:left; font-size:30; line-height:20px; margin-left:10px; color:#000; font-weight:normal; letter-spacing:1px;}
 #headerTxt a, #nav a, #footerNav a {text-decoration:none; color: #000;}
 
-#footerNav a {display:block; margin:0px 0px 10px 10px;}
+#footerNav a {display:none; margin:0px 0px 10px 10px;}
 
 /* books/homepage */  
 #bookContainer img {margin:0px 30px;}
@@ -39,6 +39,7 @@ hr {border-color:#666;}
 .bioText p, .fellowships p {margin-bottom:20px;}
 
 @media screen and (min-width: 768px) {
+  body {font-size:1em;}
   #nav {display:block;}
   #footerNav {display:none;}
   .center {width: 768px;}
