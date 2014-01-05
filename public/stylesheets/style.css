@@ -9,7 +9,9 @@
   #headerTxt {text-align:left; font-size:30; line-height:20px; color:#000;font-weight:normal; letter-spacing:1px;}
   #headerTxt a, #nav a, .footerColumn a {text-decoration:none; color: #000;}
   .container {margin:50px 0px;}
-  #bookContainer img {margin:0px 69px;}
+  #bookContainer img {margin:0px 30px;}
+  #bookContainer a {display:block; margin-bottom: 15px;}
+  #bookContainer a img {width:250px;}
   #publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
   #publicationsContent h4 {margin:30px 0px;}
   #mediaContent p {margin:20px 0px 40px 0px;}
