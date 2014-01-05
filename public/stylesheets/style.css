@@ -1,32 +1,41 @@
-  body {font-family:Georgia,Times,"Times New Roman",serif;}
-  .center {display:block; margin-left:auto; margin-right:auto; width:800px; padding-top:20px;}
-  .thumbnail {margin-top:10px;}
-  p {margin:0; padding:0;}
-  .sans {font-family:sans-serif;}
-  #nav {letter-spacing:1px; border:solid 2px #e9e9e9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px 0px 0px 10px; height:40px;}
-  #nav a {display:inline-block; margin-right:60px; line-height:40px;}
-  #nav #booksSubHeader a {margin-right:30px;}
-  #headerTxt {text-align:left; font-size:30; line-height:20px; color:#000;font-weight:normal; letter-spacing:1px;}
-  #headerTxt a, #nav a, .footerColumn a {text-decoration:none; color: #000;}
-  .container {margin:50px 0px;}
-  #bookContainer img {margin:0px 30px;}
-  #bookContainer a {display:block; margin-bottom: 15px;}
-  #bookContainer a img {width:250px;}
-  #publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
-  #publicationsContent h4 {margin:30px 0px;}
-  #mediaContent p {margin:20px 0px 40px 0px;}
-  .bioText p, .fellowships p {margin-bottom:20px;}
-  hr {border-color:#666;}
-  #foot {border-top:solid 2px #e9e9e9; padding-top:10px; padding-left:10px;}
-  .footerColumn {float:left; margin-right:60px; font-size:.8em; padding-bottom:50px;}
-  .footerColumn a, .footerColumn span {display:block; font-family:sans-serif; display:block; margin-top:3px;}
-  .footerTitle {color:#999;}
+/* layout setup */
+body {font-family:Georgia,Times,"Times New Roman",serif;}
+.container {margin:50px 0px;}
+p {margin:0; padding:0;}
+hr {border-color:#666;}
 
-  .mb10 {margin-bottom:10px;}
+/* utility */
+.sans {font-family:sans-serif;}
+.center {display:block; margin-left:auto; margin-right:auto; width:800px; padding-top:20px;}
+.mb10 {margin-bottom:10px;}
+.textContent p {margin-bottom:10px;}
+.hidden {display:none;}
+.shown {display:block;}
+.horizontalLinks span {display:inline-block; margin-right:20px;}
 
-  .textContent p {margin-bottom:10px;}
+/* header/navigation */
+#nav {letter-spacing:1px; border:solid 2px #e9e9e9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px 0px 0px 10px; height:40px;}
+#nav a {display:inline-block; margin-right:60px; line-height:40px;}
+#nav #booksSubHeader a {margin-right:30px;}
+#headerTxt {text-align:left; font-size:30; line-height:20px; color:#000;font-weight:normal; letter-spacing:1px;}
+#headerTxt a, #nav a, .footerColumn a {text-decoration:none; color: #000;}
 
-  .hidden {display:none;}
-  .shown {display:block;}
 
-  .horizontalLinks span {display:inline-block; margin-right:20px;}
+/* books/homepage */  
+#bookContainer img {margin:0px 30px;}
+#bookContainer .book {display:block; margin-bottom: 15px;}
+#bookContainer a img {width:200px;}
+.bookInfo {display:inline-block;}
+
+/* publications */
+#publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+#publicationsContent h4 {margin:30px 0px;}
+
+/* media */
+#mediaContent p {margin:20px 0px 40px 0px;}
+
+/* about */
+.bioText p, .fellowships p {margin-bottom:20px;}
+
+
+
