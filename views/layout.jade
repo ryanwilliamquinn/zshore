@@ -4,17 +4,23 @@ html
     title #{title}
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(type='text/javascript', src='/javascripts/jquery.min.js')
+    meta(name="viewport" content="width=device-width; initial-scale=1")
     //-script(type='text/javascript', src='/javascripts/script.js')
-  body
-    .center
-      header
-        h1#headerTxt
-          a(href='/') Zachary Shore
-      #nav
-        a(href='about') Biography
-        a(href='publications') Publications
-        a(href='media') Media
-        a(href='contact' style='border-right:none;') Contact
-      .container
-        block content
-      hr(style="border: solid 1px #c9c9c9; clear:both; margin-bottom:30px;")
+  body.center
+    header
+      h1#headerTxt
+        a(href='/') Zachary Shore
+    #nav
+      a(href='about') Biography
+      a(href='publications') Publications
+      a(href='media') Media
+      a(href='contact' style='border-right:none;') Contact
+    .container
+      block content
+    #footerNav
+      a(href='home') Home
+      a(href='about') Biography
+      a(href='publications') Publications
+      a(href='media') Media
+      a(href='contact' style='border-right:none;') Contact
+    hr(style="border: solid 1px #c9c9c9; clear:both; margin-bottom:30px;")

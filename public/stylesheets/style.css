@@ -6,7 +6,7 @@ hr {border-color:#666;}
 
 /* utility */
 .sans {font-family:sans-serif;}
-.center {display:block; margin-left:auto; margin-right:auto; width:480px; padding-top:20px;}
+.center {display:block; margin-left:auto; margin-right:auto; width:320px; padding-top:20px;}
 .mb10 {margin-bottom:10px;}
 .textContent p {margin-bottom:10px;}
 .hidden {display:none;}
@@ -14,17 +14,19 @@ hr {border-color:#666;}
 .horizontalLinks span {display:inline-block; margin-right:20px;}
 
 /* header/navigation */
-#nav {letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px; height:40px;}
+#nav {display:none; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; margin:20px 0px 0px 0px; padding:0px; height:40px;}
 #nav a {display:inline-block; padding:0px 10px; border-right: solid 1px #c9c9c9; line-height:40px;}
 #nav #booksSubHeader a {margin-right:30px;}
 #headerTxt {text-align:left; font-size:30; line-height:20px; margin-left:10px; color:#000; font-weight:normal; letter-spacing:1px;}
-#headerTxt a, #nav a, .footerColumn a {text-decoration:none; color: #000;}
+#headerTxt a, #nav a, #footerNav a {text-decoration:none; color: #000;}
+
+#footerNav a {display:block; margin:0px 0px 10px 10px;}
 
 /* books/homepage */  
 #bookContainer img {margin:0px 30px;}
 #bookContainer .book {display:block; margin-bottom: 15px;}
 #bookContainer a img {width:200px;}
-.bookInfo {display:block;}
+.bookInfo {display:block; margin-left:10px;}
 
 /* publications */
 #publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
@@ -36,17 +38,11 @@ hr {border-color:#666;}
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}
 
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 981px) {
-  .center {width:768px;}
-  .bookInfo {display:inline-block; position:relative; bottom:160px}
-  #nav a {border-right: none; margin-right:50px;}
-}
-
-@media only screen and (min-width: 981px), {
-  .center {width:768px;}
-  .bookInfo {display:inline-block; position:relative; bottom:160px}
-  #nav a {border-right: none; margin-right:50px;}
+@media screen and (min-width: 800px) {
+  #nav {display:block;}
+  #footerNav {display:none;}
+  .center {width: 800px;}
+  #nav a {margin-right:50px; border-right:none;}
 }
 
 
