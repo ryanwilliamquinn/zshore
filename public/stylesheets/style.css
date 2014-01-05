@@ -38,10 +38,10 @@ hr {border-color:#666;}
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   #nav {display:block;}
   #footerNav {display:none;}
-  .center {width: 800px;}
+  .center {width: 768px;}
   #nav a {margin-right:50px; border-right:none;}
   .bookInfo {display:inline-block; position:relative; bottom:160px;}
 }
