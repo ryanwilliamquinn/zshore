@@ -43,6 +43,7 @@ hr {border-color:#666;}
   #footerNav {display:none;}
   .center {width: 800px;}
   #nav a {margin-right:50px; border-right:none;}
+  .bookInfo {display:inline-block; position:relative; bottom:160px;}
 }
 
 
