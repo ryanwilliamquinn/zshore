@@ -20,8 +20,6 @@ hr {border-color:#666;}
 #headerTxt {text-align:left; font-size:30; line-height:20px; margin-left:10px; color:#000; font-weight:normal; letter-spacing:1px;}
 #headerTxt a, #nav a, #footerNav a {text-decoration:none; color: #000;}
 
-#footerNav a {display:none; margin:0px 0px 10px 10px;}
-
 /* books/homepage */  
 #bookContainer img {margin:0px 30px;}
 #bookContainer .book {display:block; margin-bottom: 15px;}
@@ -48,5 +46,12 @@ hr {border-color:#666;}
   .bookInfo {display:inline-block; position:relative; bottom:160px;}
 }
 
+
+@media screen and (min-width: 480) {
+  body {font-size:1em;}
+  #nav {font-size:1em;}
+  #footerNav {display:none;}
+  .center {width: 480;}
+}
 
 
