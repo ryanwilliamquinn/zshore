@@ -39,6 +39,7 @@ hr {border-color:#666;}
 .bioText p, .fellowships p {margin-bottom:20px;}
 
 @media screen and (min-width: 768px) {
+  body {font-size:1em;}
   #nav {font-size:1em;}
   #nav {display:block;}
   #footerNav {display:none;}
