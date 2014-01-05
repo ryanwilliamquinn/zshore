@@ -6,7 +6,7 @@ hr {border-color:#666;}
 
 /* utility */
 .sans {font-family:sans-serif;}
-.center {display:block; margin-left:auto; margin-right:auto; width:320px; padding-top:20px;}
+.center {display:block; margin-left:auto; margin-right:auto; width:480px; padding-top:20px;}
 .mb10 {margin-bottom:10px;}
 .textContent p {margin-bottom:10px;}
 .hidden {display:none;}
@@ -14,7 +14,7 @@ hr {border-color:#666;}
 .horizontalLinks span {display:inline-block; margin-right:20px;}
 
 /* header/navigation */
-#nav {display:block; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; font-size:0.8em; margin:20px 0px 0px 0px; padding:0px; height:40px;}
+#nav {display:block; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; font-size:0.75em; margin:20px 0px 0px 0px; padding:0px; height:40px;}
 #nav a {display:inline-block; padding:0px 10px; border-right: solid 1px #c9c9c9; line-height:40px;}
 #nav #booksSubHeader a {margin-right:30px;}
 #headerTxt {text-align:left; font-size:30; line-height:20px; margin-left:10px; color:#000; font-weight:normal; letter-spacing:1px;}
