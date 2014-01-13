@@ -42,22 +42,27 @@ app.get('/a-sense-of-the-enemy', function(req,res) {
 app.get('/blunder', function(req, res) {
   res.render('blunder',
   {title: titleText + 'Blunder'});
-})
+});
 
 app.get('/breeding-bin-ladens', function(req, res) {
   res.render('breedingBinLadens',
     {title: titleText + 'Breeding Bin Ladens'});
-})
+});
 
 app.get('/what-hitler-knew', function(req, res) {
   res.render('whatHitlerKnew',
     {title: titleText + 'What Hitler Knew'});
-})
+});
 
 app.get('/contact', function(req, res) {
   res.render('contact',
-    {title: titleText + 'contact'})
-})
+    {title: titleText + 'contact'});
+});
+
+app.get('/grid', function(req, res) {
+  res.render('grid',
+    {title: 'ZacharyShore.com'});
+});
 
 app.use(function(req, res, next) {
   res.status(404);

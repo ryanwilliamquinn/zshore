@@ -1,11 +1,11 @@
 /* layout setup */
-body {font-family:Georgia,Times,"Times New Roman",serif; font-size:0.9em;}
+body {font-family: Sans-Serif; font-size:0.9em;}
 .container {margin:50px 0px;}
 p {margin:0; padding:0;}
 hr {border-color:#666;}
 
 /* utility */
-.sans {font-family:sans-serif;}
+.georgia {font-family:Georgia,Times,"Times New Roman",serif;}
 .center {display:block; margin-left:auto; margin-right:auto; width:320px; padding-top:20px;}
 .mb10 {margin-bottom:10px;}
 .textContent p {margin-bottom:10px;}
@@ -21,10 +21,19 @@ hr {border-color:#666;}
 #headerTxt a, #nav a, #footerNav a {text-decoration:none; color: #000;}
 
 /* books/homepage */  
-#bookContainer img {margin:0px 30px;}
 #bookContainer .book {display:block; margin-bottom: 15px;}
+#bookContainer a {width:200px; margin:0px 30px;}
 #bookContainer a img {width:200px;}
-.bookInfo {display:block; margin-left:10px;}
+.bookInfo {display:inline-block; margin-left:10px;}
+#bookContainer .bookInfo {width: 90px;}
+
+/* grid books/homepage */
+#bookContainer .bookRow .book {display:inline-block; width:160px; height: 170px;}
+#bookContainer .bookRow a {display:inline-block; width:100px; margin: 0px 15px;}
+#bookContainer .bookRow a img {width:100px; margin:0px;}
+#bookContainer .bookRow .bookInfo {display:none;}
+#bookContainer .bookRow .whn_hp {position:relative; bottom:14px;}
+#bookContainer .bookRow .blunder_hp {position:relative; bottom:4px;}
 
 /* publications */
 #publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
@@ -36,6 +45,7 @@ hr {border-color:#666;}
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}
 
+/* screens between larger than 768px */
 @media screen and (min-width: 768px) {
   body {font-size:1em;}
   #nav {font-size:1em;}
@@ -43,10 +53,16 @@ hr {border-color:#666;}
   #footerNav {display:none;}
   .center {width: 768px;}
   #nav a {margin-right:50px; border-right:none;}
-  .bookInfo {display:inline-block; position:relative; bottom:160px;}
+  #bookContainer .bookInfo, #bookContainer .bookRow .bookInfo {display:inline-block; position:relative; bottom:160px; width:164px;}
+  /* grid view styles */
+  #bookContainer .bookRow .book {display:inline-block; width:384px; height:250px;}
+  #bookContainer .bookRow a {display:inline-block; width:150px; margin: 0px 30px;}
+  #bookContainer .bookRow a img {width:150px; margin:0px;}
+  #bookContainer .bookRow .whn_hp {position:relative; bottom:21px;}
+  #bookContainer .bookRow .blunder_hp {position:relative; bottom:5px;}
 }
 
-
+/* screens between 480 and 768px */
 @media screen and (min-width: 480) {
   body {font-size:1em;}
   #nav {font-size:1em;}
