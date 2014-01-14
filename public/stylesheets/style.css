@@ -31,8 +31,6 @@ hr {border-color:#666;}
 #bookContainer .bookRow .book {display:inline-block; width:160px; height: 170px;}
 #bookContainer .bookRow a {display:inline-block; width:100px; margin: 0px 15px;}
 #bookContainer .bookRow a img {width:100px; margin:0px;}
-#bookContainer .bookRow .bookInfo {display:none;}
-#bookContainer .bookRow .whn_hp {position:relative; bottom:14px;}
 #bookContainer .bookRow .blunder_hp {position:relative; bottom:4px;}
 
 /* publications */
@@ -53,12 +51,12 @@ hr {border-color:#666;}
   #footerNav {display:none;}
   .center {width: 768px;}
   #nav a {margin-right:50px; border-right:none;}
-  #bookContainer .bookInfo, #bookContainer .bookRow .bookInfo {display:inline-block; position:relative; bottom:160px; width:164px;}
+  #bookContainer .bookInfo {display:inline-block; position:relative; bottom:160px; width:164px;}
   /* grid view styles */
+  #bookContainer .book {margin-bottom:30px;}
   #bookContainer .bookRow .book {display:inline-block; width:384px; height:250px;}
-  #bookContainer .bookRow a {display:inline-block; width:150px; margin: 0px 30px;}
-  #bookContainer .bookRow a img {width:150px; margin:0px;}
-  #bookContainer .bookRow .whn_hp {position:relative; bottom:21px;}
+  #bookContainer .bookRow a {display:inline-block; width:175px; margin: 0px 30px;}
+  #bookContainer .bookRow a img {width:175px; margin:0px;}
   #bookContainer .bookRow .blunder_hp {position:relative; bottom:5px;}
 }
 
