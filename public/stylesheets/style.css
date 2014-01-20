@@ -38,7 +38,7 @@ hr {border-color:#666;}
 #publicationsContent h4 {margin:30px 0px;}
 
 /* media */
-#mediaContent p {margin:20px 0px 40px 0px;}
+#mediaContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}

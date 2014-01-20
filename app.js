@@ -15,7 +15,7 @@ app.listen(3000);
 var titleText = 'ZacharyShore.com - ';
 
 app.get('/', function(req, res) {
-  res.render('home',
+  res.render('grid',
   { title: 'ZacharyShore.com' });
 });
 
@@ -59,8 +59,8 @@ app.get('/contact', function(req, res) {
     {title: titleText + 'contact'});
 });
 
-app.get('/grid', function(req, res) {
-  res.render('grid',
+app.get('/alternate', function(req, res) {
+  res.render('home',
     {title: 'ZacharyShore.com'});
 });
 
