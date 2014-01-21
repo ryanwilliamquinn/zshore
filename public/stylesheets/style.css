@@ -34,11 +34,25 @@ hr {border-color:#666;}
 #bookContainer .bookRow .blunder_hp {position:relative; bottom:4px;}
 
 /* publications */
-#publicationsContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+#publicationsContent p, .pubBook {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 #publicationsContent h4 {margin:30px 0px;}
+.pubBook {height:114px; clear:both;} 
+.pubBook.blunder {height:112px;}
+.pubBook.binLadens {height:124px; clear:both;}
+.pubBook.whk {height: 113px; clear:both;}
+.pubBook .bookImg {width:75px;}
+.pubBook .pubInfo {display:inline-block; width:235px;}
+
+
+.midLink {margin-top:35px; display:inline;}
+.midLink2 {margin-top:30px; display:inline;}
+.midLink3 {margin-top:37px; display:inline;}
+.bookImg {float:left; margin-right:10px;}
+.mediaVid {display:none;}
+.mediaLink {display:block;}
 
 /* media */
-#mediaContent p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+#mediaContent p, .mediaLink, .mediaVid {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}
@@ -58,6 +72,13 @@ hr {border-color:#666;}
   #bookContainer .bookRow a {display:inline-block; width:175px; margin: 0px 30px;}
   #bookContainer .bookRow a img {width:175px; margin:0px;}
   #bookContainer .bookRow .blunder_hp {position:relative; bottom:5px;}
+
+  .pubBook .pubInfo {width:650px;}
+  .midLink {display:inline-block;}
+  .midLink2 {display:inline-block;}
+  .midLink3 {display:inline-block;}
+  .mediaVid {display:inline-block;}
+  .mediaLink {display:none;}
 }
 
 /* screens between 480 and 768px */
