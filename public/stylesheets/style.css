@@ -1,6 +1,6 @@
 /* layout setup */
 body {font-family: Sans-Serif; font-size:0.9em;}
-.container {margin:50px 0px;}
+.container {margin:50px 0px; padding:0px 5px;}
 p {margin:0; padding:0;}
 hr {border-color:#666;}
 
@@ -41,7 +41,7 @@ hr {border-color:#666;}
 .pubBook.binLadens {height:124px; clear:both;}
 .pubBook.whk {height: 113px; clear:both;}
 .pubBook .bookImg {width:75px;}
-.pubBook .pubInfo {display:inline-block; width:235px;}
+.pubBook .pubInfo {display:inline-block; width:225px;}
 
 
 .midLink {margin-top:35px; display:inline;}
@@ -50,6 +50,8 @@ hr {border-color:#666;}
 .bookImg {float:left; margin-right:10px;}
 .mediaVid {display:none;}
 .mediaLink {display:block;}
+
+.contactImg {width:200px;}
 
 /* media */
 #mediaContent p, .mediaLink, .mediaVid {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
@@ -79,6 +81,8 @@ hr {border-color:#666;}
   .midLink3 {display:inline-block;}
   .mediaVid {display:inline-block;}
   .mediaLink {display:none;}
+
+  .contactImg {width:250px;}
 }
 
 /* screens between 480 and 768px */
