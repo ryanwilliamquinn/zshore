@@ -43,10 +43,6 @@ hr {border-color:#666;}
 .pubBook .bookImg {width:75px;}
 .pubBook .pubInfo {display:inline-block; width:225px;}
 
-
-.midLink {margin-top:35px; display:inline;}
-.midLink2 {margin-top:30px; display:inline;}
-.midLink3 {margin-top:37px; display:inline;}
 .bookImg {float:left; margin-right:10px;}
 .mediaVid {display:none;}
 .mediaLink {display:block;}
@@ -70,15 +66,12 @@ hr {border-color:#666;}
   #bookContainer .bookInfo {display:inline-block; position:relative; bottom:160px; width:164px;}
   /* grid view styles */
   #bookContainer .book {margin-bottom:30px;}
-  #bookContainer .bookRow .book {display:inline-block; width:384px; height:250px;}
+  #bookContainer .bookRow .book {display:inline-block; width:378px; height:250px;}
   #bookContainer .bookRow a {display:inline-block; width:175px; margin: 0px 30px;}
   #bookContainer .bookRow a img {width:175px; margin:0px;}
   #bookContainer .bookRow .blunder_hp {position:relative; bottom:5px;}
 
-  .pubBook .pubInfo {width:650px;}
-  .midLink {display:inline-block;}
-  .midLink2 {display:inline-block;}
-  .midLink3 {display:inline-block;}
+  .pubBook .pubInfo {width:650px; margin-top:35px;}
   .mediaVid {display:inline-block;}
   .mediaLink {display:none;}
 
