@@ -33,6 +33,9 @@ hr {border-color:#666;}
 #bookContainer .bookRow a img {width:100px; margin:0px;}
 #bookContainer .bookRow .blunder_hp {position:relative; bottom:4px;}
 
+/* biography */
+.fellowships p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+
 /* publications */
 #publicationsContent p, .pubBook {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 #publicationsContent h4 {margin:30px 0px;}
