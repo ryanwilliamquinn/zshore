@@ -31,7 +31,6 @@ hr {border-color:#666;}
 #bookContainer .bookRow .book {display:inline-block; width:155px; height: 170px;}
 #bookContainer .bookRow a {display:inline-block; width:100px; margin: 0px 15px;}
 #bookContainer .bookRow a img {width:100px; margin:0px;}
-#bookContainer .bookRow .blunder_hp {position:relative; bottom:4px;}
 
 /* biography */
 .fellowships p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
@@ -71,8 +70,7 @@ hr {border-color:#666;}
   #bookContainer .book {margin-bottom:30px;}
   #bookContainer .bookRow .book {display:inline-block; width:378px; height:250px;}
   #bookContainer .bookRow a {display:inline-block; width:175px; margin: 0px 30px;}
-  #bookContainer .bookRow a img {width:175px; margin:0px;}
-  #bookContainer .bookRow .blunder_hp {position:relative; bottom:5px;}
+  #bookContainer .bookRow a img {width:177px; margin:0px;}
 
   .pubBook .pubInfo {width:650px; margin-top:35px;}
   .mediaVid {display:inline-block;}
