@@ -51,6 +51,8 @@ hr {border-color:#666;}
 
 .contactImg {width:200px;}
 
+.bookDetailImg {float:left;}
+
 /* media */
 #mediaContent p, .mediaLink, .mediaVid {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 
@@ -77,6 +79,8 @@ hr {border-color:#666;}
   .mediaLink {display:none;}
 
   .contactImg {width:250px;}
+
+  .bookDetailImg {float:right;}
 }
 
 /* screens between 480 and 768px */
