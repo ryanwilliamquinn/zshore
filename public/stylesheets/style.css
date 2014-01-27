@@ -59,12 +59,27 @@ hr {border-color:#666;}
 /* about */
 .bioText p, .fellowships p {margin-bottom:20px;}
 
+/* screens between 480 and 768px */
+@media screen and (min-width: 480px) {
+  body {font-size:1em;}
+  #nav {font-size:1em;}
+  .center {width: 480px;}
+}
+
+/* screens between 560 and 768px */
+@media  screen and (min-width: 560px) {
+  body {font-size:1em;}
+  #nav {font-size:1em;}
+  .center{width:560px;}
+  .mediaVid {display:inline-block;}
+  .mediaLink {display:none;}
+}
+
 /* screens between larger than 768px */
 @media screen and (min-width: 768px) {
   body {font-size:1em;}
   #nav {font-size:1em;}
   #nav {display:block;}
-  #footerNav {display:none;}
   .center {width: 768px;}
   #nav a {margin-right:50px; border-right:none;}
   #bookContainer .bookInfo {display:inline-block; position:relative; bottom:160px; width:164px;}
@@ -83,12 +98,6 @@ hr {border-color:#666;}
   .bookDetailImg {float:right;}
 }
 
-/* screens between 480 and 768px */
-@media screen and (min-width: 480) {
-  body {font-size:1em;}
-  #nav {font-size:1em;}
-  #footerNav {display:none;}
-  .center {width: 480;}
-}
+
 
 
