@@ -12,6 +12,7 @@ hr {border-color:#666;}
 .hidden {display:none;}
 .shown {display:block;}
 .horizontalLinks span {display:inline-block; margin-right:20px;}
+.italic {font-style:italic;}
 
 /* header/navigation */
 #nav {display:block; letter-spacing:1px; border:solid 1px #c9c9c9; border-left:none; border-right:none; font-size:0.75em; margin:20px 0px 0px 0px; padding:0px; height:40px;}
