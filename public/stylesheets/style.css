@@ -39,6 +39,7 @@ hr {border-color:#666;}
 /* publications */
 #publicationsContent p, .pubBook {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
 #publicationsContent h4 {margin:30px 0px;}
+#publicationsContent li {margin:20px 0px;}
 .pubBook {height:114px; clear:both;} 
 .pubBook.blunder {height:112px;}
 .pubBook.binLadens {height:124px; clear:both;}
