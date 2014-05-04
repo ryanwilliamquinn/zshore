@@ -34,7 +34,8 @@ hr {border-color:#666;}
 #bookContainer .bookRow a img {width:100px; margin:0px;}
 
 /* biography */
-.fellowships p {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
+.fellowships li, .bioText p {padding-bottom:20px;}
+
 
 /* publications */
 #publicationsContent p, .pubBook {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
@@ -57,9 +58,7 @@ hr {border-color:#666;}
 
 /* media */
 #mediaContent p, .mediaLink, .mediaVid {margin:20px 0px 0px 0px; padding-bottom:20px; border-bottom:1px dashed #ccc;}
-
-/* about */
-.bioText p, .fellowships p {margin-bottom:20px;}
+#mediaContent li {padding-bottom:20px;}
 
 /* screens between 480 and 768px */
 @media screen and (min-width: 480px) {
