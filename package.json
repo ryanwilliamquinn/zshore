@@ -1,5 +1,6 @@
 {
   "name": "shore",
+  "main": "app",
   "description": "Express app for zachary shore",
   "version": "0.0.1",
   "dependencies": {
